@@ -1,35 +1,37 @@
-# Redux Todos Example
+# Optilyz Interview Task
 
-This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app), which provides a simple way to start React projects with no build configuration needed.
+This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app). Project is build based on react and redux.
 
-Projects built with Create-React-App include support for ES6 syntax, as well as several unofficial / not-yet-final forms of Javascript syntax such as Class Properties and JSX. See the list of [language features and polyfills supported by Create-React-App](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#supported-language-features-and-polyfills) for more information.
-
-## Available Scripts
+## Run app
 
 In the project directory, you can run:
 
-### `npm start`
+`yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Tasks
+1. Find and fix errors
+    * toggle one task marks all of them as completed with the same content
+    * show active and show completed shows all tasks
 
-### `npm run build`
+2. Improve interface using "styled-components"
+    * install styled-components
+    * beautify buttons, input, list
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Implement feature
+    * clear all completed tasks from list
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+4. Routing
+    * completed task should be shown with the path `/completed`
+    * active task should be show with the path `/active`
 
-### `npm run eject`
+5. Tests
+    * write test for one component
+    * write test for one container
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+6. Async call
+    * implement autocomplete on focus input to add a task
+    * fetch a list from http://localhost:3000/autocomplete.json
+    * show list before typing
