@@ -35,3 +35,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
     * implement autocomplete on focus input to add a task
     * fetch a list from http://localhost:3000/autocomplete.json
     * show list before typing
+    * when user selects an option, replace input content with selected text
