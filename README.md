@@ -20,10 +20,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
     * clear all completed tasks from list
 
 3. Routing
+
+    Module `react-router-dom` is already added in package.json
     * completed task should be shown with the path `/completed`
     * active task should be show with the path `/active`
 
 4. Tests
+
+    Jest is installed and to run tests use: `yarn test`
     * write test for one component
     * write test for one container
 
